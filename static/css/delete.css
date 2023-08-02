@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Righteous&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.DeleteToHome{
+
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6666;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+form a{
+    text-decoration: none;
+}
+
+.DeleteToHome:hover{
+    background-color: #ff6666;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+form p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="delete"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6666;
+    color: #fff;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6666;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

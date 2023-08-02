@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ 
+ 
+ 
+header {
+    background-color: black;
+    position: relative;
+    width: 100%
+
+}
+ .hamnivbar{
+    display: none;
+ }
+
+
+
+ 
+.button{
+    margin-left: 570px;
+    background-color: darkblue;
+    display: flex;
+    padding: 5px;
+    margin-bottom: 48px;
+    border-radius: 10px;
+    text-align: center;
+    width:  182px;
+    font-size: 25px;
+    margin-top: 51px;
+ }
+ .button:hover{
+color: rgb(0, 255, 98);
+ }
+
+li {
+    list-style: none;
+}
+
+a {
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#navtophead{
+    color: #ee0e0e;
+    text-shadow: 2px -1px 0px;
+    font-size: 38px;
+    box-sizing: 2px 5px 10px;
+    box-shadow: 2px 2px 3px 0px;
+    margin-left: -143px;
+    width: 400px;
+}
+nav img{
+    width: 3.5vw;
+    border: none;
+    margin-left: 37px;
+
+}
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.24px;
+    margin-right: 29px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+.nav-branding {
+    font-size: 2rem;
+    margin-left: 24px;
+
+}
+
+.nav-link {
+    transition: 0.7s ease;
+
+}
+
+.nav-link:hover {
+    color: dodgerblue;
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 45px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/* ................................................................... */
+ 
+
+
+
+
+
+@media(max-width:420px) {
+     
+
+
+    header{
+        display: none;
+    }
+   
+    
+
+    .hamnivbar{
+        display: block;
+    }
+
+
+
+}
+
+
+
+
+.mainFooter {
+    flex-direction: row;
+    background-color: #000000de;
+    color: ghostwhite;
+    margin-top: 1px;
+    width: 1349px;
+    margin-left: 0px;
+    height: 196px;
+}
+
+.FollowSection h3 {
+    margin-left: 140px;
+    color: white;
+    margin-top: 15px;
+}
+
+.aboutFooter {
+    text-align: center;
+    position: relative;
+    top: 37px;
+}
+
+.footerHeadin {
+    color: #d9855f;
+    padding: 6px;
+    width: 19vw;
+    font-size: 16px;
+    margin-left: 553px;
+    margin-top: 16px;
+    position: absolute;
+}
+
+.FollowSection {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #92481f;
+    gap: 14px;
+    margin-top: 0px;
+    width: 1349px;
+    margin-left: 0px;
+
+
+}
+
+.FollowSection p {
+    margin-top: 15px;
+}
+
+.call {
+    margin-top: 44px;
+}
+
+.imgSection {
+    width: 137px;
+    height: 40px;
+    margin-top: 14px;
+}
+
+.FollowSectionImag {
+    color: white;
+
+}
+
+
+
+
+
+
+@media(max-width:420px) {
+
+    footer {
+        position: absolute;
+    }
+
+     .button{
+        width: 225px;
+        margin-left: 100px;
+        justify-content: center;
+
+
+    }
+
+    .FollowSection {
+        width: 437px;
+        height: 225px;
+        display: block;
+        margin-top: -15px;
+    
+    }
+
+    .FollowSection p {
+        position: relative;
+        top: 10px;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+
+
+    .mainFooter {
+        width: 437px;
+        height: 235px;
+    
+    }
+
+    .imgSection {
+        margin-left: 115px;
+        display: flex;
+        gap: 19px;
+    }
+
+    .FollowSection h3 {
+        font-size: 24px;
+        margin-top: 39px;
+    }
+
+    .footerHeadin {
+        margin-left: 51px;
+        font-size: 22px;
+        width: 343px;
+    }
+
+    #navtophead{
+        font-size: 34px;
+        margin: 0px;
+        position: relative;
+        left: 30px;
+        width: 182px;
+        text-shadow: unset;
+        box-shadow: unset;
+    }
+
+
+    nav img{
+        position: relative;
+        left: -11px;
+        width: 73px;
+        top: 5px;
+
+    }
+
+   
+
+    
+}

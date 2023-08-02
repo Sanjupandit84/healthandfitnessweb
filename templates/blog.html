@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="/static/css/blog.css">
+{% extends 'base.html' %}
+{% block body %}
+<div class="backimageSection">
+
+    <video class="background-video3" autoplay loop muted
+        poster="https://assets.codepen.io/6093409/homevideoclip">
+        <source class="video3" src="/static/image/bodyvideo3 " type="video/mp4">
+
+    </video>
+    <div class="image">
+        <h1> Health & Fitness Web</h1>
+        <form action="/search" method="GET">
+            <input class="search" placeholder=" Search for your health"
+                name="search">
+            <button class="searchIcon" type="submit"><i class="fa fa-search"
+                    aria-hidden="true"></i></button>
+
+        </form>
+    </div>
+</div>
+
+<main>
+    {% for row in images %}
+    <article>
+
+        <h2>{{ row[1] }}</h2>
+
+        <img class="img" src="data:img/png;base64,{{ row[2] }}" alt>
+
+        <p>{{ row[3] }}</p>
+
+    </article>
+    {% endfor %}
+</main>
+
+{% endblock body %}

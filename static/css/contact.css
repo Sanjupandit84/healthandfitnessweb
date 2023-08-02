@@ -1,0 +1,107 @@
+/* CSS reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+
+    
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+  }
+  
+ 
+   h1 {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: rgb(64, 14, 179);
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  main {
+    max-width: 800px;
+
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .backgroundbody{
+    background: #c59bccbf;
+
+  }
+  
+  .contact-form label,
+  .contact-info li {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #31a144;
+    border-radius: 8px;
+  }
+  
+  .contact-form button {
+    background-color: rgb(173 46 199);
+    color: #fff;
+    cursor: pointer;
+    max-width: 140px;
+    font-size: 21px;
+    border-radius: 8px;
+  }
+  .contact-form button:hover{
+    background-color: rgb(69, 145, 199);
+    color: #f1ecec;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 2rem;
+  }
+  
+ 
+  .contact-info li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info .icon {
+    margin-right: 0.5rem;
+  }
+  
+
+
+
+
+  @media only screen and (max-width: 420px) {
+
+    .backgroundbody{
+      width: 437px;
+    }
+
+
+
+
+  }
+
+
+ 
+  

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Righteous&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #324f83;
+    color: #f41b33;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #bf8e3e;
+    color: #4b51a5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 22px;}
+nav  td a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Table Styles */
+table {
+    margin: 20px 0;
+    width: 100%;
+}
+
+th {
+    background-color: #0cb775;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 23px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+
+/* Button Styles */
+.but {
+    background-color: #d1d51f;
+    color: #3d2b2b;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    width: 90px;
+    margin-top: 14px;
+
+
+}
+
+button:hover {
+    background-color: #d63636;
+}
+.imgoo{
+    width: 36px;
+    background-color: white;
+    margin-top: 8px;
+    
+
+}
+.AdminTologin{
+    margin-left: 47px;
+    height: 47px;
+    width: 149px;
+    position: relative;
+    font-size: 20px;
+    top: -17px;
+    margin-top: 40px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+
+
+
+}
+.AdminTologin:hover{
+    color: rebeccapurple;
+    background-color: wheat;
+}
+
+.write {
+    background-color: #ff0000;
+    color: #fff;
+    position: relative;
+    top: -17px;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 17vw;
+    margin-left: 385px;
+    margin-top: 42px;
+
+
+}
+.write:hover{
+    color: rebeccapurple;
+    background-color: wheat;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 14px;
+}
+
+img {
+    width: 352px;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+header{
+    background-color: #3caeb5;
+    width: 659px;
+    padding: 10px;
+}
+nav{
+    width: 659px;
+    padding: 10px;
+}
+.but{
+    width: 53px;
+    font-size: 15px;
+}
+.write{
+    margin: 0px;
+    width: 151px;
+    top: 2px;
+    position: relative;
+    left: 109px;
+    color: black;
+}
+.back{
+    margin-left: 55px;
+    margin-top: 40px;
+    position: relative;
+    top: -86px;
+    height: 46px;
+    left: 241px;
+}
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=10.0">
+    <link rel="stylesheet" href="/static/css/admin_panel.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <head>
+        <title>Admin Page</title>
+    </head>
+    <body>
+        <header>
+            <h1> Admin Page</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+
+            </ul>
+        </nav>
+        <main>
+
+            <table>
+                <tr>
+                    <th scope="column">Id</th>
+                    <th scope="column">Title</th>
+                    <th scope="column">Image</th>
+                    <th scope="column">content</th>
+                    <th>Actions</th>
+
+                    {% for row in images %}
+                    <tr>
+                        <td>{{loop.index}}</td>
+                        <td>{{ row[1] }}</td>
+                        <td><img src="data:img/png;base64,{{ row[2] }}" alt=""></td>
+                        <td>{{ row[3] }}</td>
+
+                        <td> <a href="/edit/{{loop.index}}"><button class="but">Edit</button></a>
+                            <a href="/delete/{{loop.index}}"><button class="but">Delete</button></a></td>
+                    </tr>
+                    {% endfor %}
+                </tr>
+
+
+
+            </table>
+            <div class="adminlast">
+
+                <a href="/write"><button class="write">Write Blog</button></a>
+
+                <a href="/login"><button class="AdminTologin">Back TO Login</button></a>
+
+
+    
+            </div>
+            
+
+                
+
+        </main>
+    </body>
+</html>

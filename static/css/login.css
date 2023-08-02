@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+body {
+    background-image: url(/static/image/purple-wallpaper-752886.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+ .backHomeBUtton{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    position: relative;
+    top: 18px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+
+ }
+
+
+ 
+
+.backHomeBUtton:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.imgoo{
+    width: 20px;
+    margin-top: 8px;
+    
+
+}
+.back{
+    margin-left: 149px;
+    margin-top: 40px;
+    position: absolute;
+    margin-top: 12px;
+}
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 1s ease-in-out;
+
+}
+
+span {
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input {
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+i {
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+
+
+    .container {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        border: 1px solid #36ba2f;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        transition: all 1s ease-in-out;
+    }
+}

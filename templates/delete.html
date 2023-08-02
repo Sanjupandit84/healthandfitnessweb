@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/static/css/delete.css">
+
+<h1>Delete Your Details</h1>
+<form action="/flush" method="post">
+    <h3> Firstly! Check your ID </h3>
+    <p>User Id</p><input type="text" placeholder="id" name="id" value="{{id}}">
+    <button type="delete">Delete</button>
+    <a href="/admin">
+
+        <input type="button" class="DeleteToHome" value="Back To Admin">
+    </a>
+
+</form>

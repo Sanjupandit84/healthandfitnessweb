@@ -1,0 +1,78 @@
+/* Reset default styles for some elements */
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .serviceMAin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+  }
+  .best-services {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  .best-services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .service {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .service p {
+    font-size: 16px;
+  }
+  
+  .service a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+
+  @media only screen and (max-width: 420px) {
+
+    .serviceMAin {
+      flex-direction: column;
+    }
+
+    .serviceContainer{
+      width: 437px;
+    }
+
+
+
+  }
+ 
+  

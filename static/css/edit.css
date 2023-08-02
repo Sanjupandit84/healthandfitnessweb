@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Righteous&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+img{
+    width: 45px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* add box shadow effect */
+    transition: all 0.3s ease-in-out;
+    /* add animation */
+}
+
+form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 98%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    /* add animation */
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    transform: scale(1.1);
+    /* add animation */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}

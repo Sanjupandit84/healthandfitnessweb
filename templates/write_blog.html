@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Write your Gym Material</title>
+        
+        <link rel="stylesheet" href="/static/css/write_blog.css">
+    </head>
+    <!DOCTYPE html>
+    <head>
+        <title>Post a Blog Related To the Healthy Fitness</title>
+    </head>
+    <div class="navbar">
+        <a class="active" href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/blog">Blog</a>
+    </div>
+
+    <body>
+        <h1>Write your Gym Material</h1>
+        <form action="/write" method="POST" enctype="multipart/form-data">
+            <label>Title:</label>
+            <input type="text" name="title"/>
+            <!-- ----------------------------------------->
+
+            <label>Content:</label><br>
+            <textarea type="text" name="content" rows="20"
+                cols="100"></textarea>
+            <!-- ----------------------------------------->
+
+            <label>Image:</label>
+            <input class="upload" type="file" id="image" name="file"/>
+
+            <!-- ----------------------------------------->
+
+            <input type="submit" value="Publish"/>
+            <a href="/admin">
+
+                <input type="button" class="BackHomeToAdmine" value="Back To Admin">
+            </a>
+
+        </form>
+    </body>
+</html>

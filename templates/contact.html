@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/contact.css">
+  <title>Health & Fitness Web</title>
+</head>
+
+
+<!-- this is comment  -->
+
+<!-- <script type = "text/javascript">
+  
+
+     function getConfirmation() {
+        var retVal = confirm("Do you want to  send this message ?");
+        if( retVal == true ) {
+           document.write ("successfully send your message");
+           location.href = "/";
+          onclick=submit
+         
+           return true;
+           
+        } else {
+           document.write ("Opps Try again Later!");
+           location.replace("/contact");
+           
+           
+           return false;
+        }
+     }
+   
+</script> -->
+
+
+
+
+{% extends 'base.html' %}
+    {% block body
+    %}
+<body>
+  
+
+  <form action="/Contact" method="POST">
+
+<div class="backgroundbody">
+  <h1>Health & Fitness Web</h1>
+
+
+    <main>
+      <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="/submit_contact_form" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="please enter your name...." required>
+  
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email"  placeholder="please enter your email...." required>
+  
+          <label for="message">Message</label>
+          <textarea  id="message" name="message" rows="5" placeholder="write msg here...."  required></textarea>
+  
+          <!-- <button type="submit">Submit</button> -->
+          <!-- <input type = "submit" value = "Submit" onclick = "getConfirmation();" /> -->
+          <input type="submit" name="submit" value="submit" onclick="return confirm('Confirm, Do YOu Realy Want to Send This Msg');">
+        </form>
+      </section>
+  
+      <section class="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>
+            <span class="icon">📍</span>
+            <span class="info">Mall Road , Almora, India</span>
+          </li>
+          <li>
+            <span class="icon">📞</span>
+            <a href="tel:6031112298"><span class="info">Phone: 8433267776</span>
+            </a>
+          </li>
+          <li>
+            <span class="icon">📧</span>
+  
+            <a href="https://www.gmail.com">
+            <span class="info">sanjaysunal2003@gmail.com</span>
+  
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+</div>
+  </form>
+</body>
+{% endblock body %}
+
+
+</html>

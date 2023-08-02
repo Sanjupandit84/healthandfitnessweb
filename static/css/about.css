@@ -1,0 +1,466 @@
+.aboutUsMain_container {
+    /* background-image: url(/static/image/body6.jpg); */
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.537;
+    display: flex;
+    background-position-y: bottom;
+}
+
+.HeadaboutUsMain_container {
+    height: 100px;
+    display: flex;
+    font-size: 37px;
+    margin: auto;
+    font-style: normal;
+}
+
+.trainer-profile:hover {
+    transform: translateY(-5px);
+  }
+
+  .trainer-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+
+  .trainer-profile {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .trainerSectionDive{
+    margin-top: 259px;
+    background-color: rgb(200, 177, 146);
+    height: 808px;
+  }
+  
+  .trainerSectionDive p{
+    color: rgb(192, 40, 26);
+    margin-left: 45px;
+    font-size: 25px;
+    padding-top: 42px;
+
+
+  }
+  .trainerSectionDive h1{
+    
+    color: rgb(23, 23, 94);
+    padding-top: 24px;
+    margin-left: 45px;
+
+  }
+  
+.trainerMainDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 154px;
+    justify-content: space-around;
+}
+  .trainer-profile h2 {
+    margin: 0;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .trainer-profile p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 16px;
+  }
+
+
+
+.HeadaboutUsMain_container h1 {
+    width: 66vw;
+    height: 167px;
+    display: flex;
+    /* margin: auto; */
+    position: absolute;
+    color: #f1eded;
+    text-align: center;
+    margin-left: -403px;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 1.6s;
+    transition-delay: 0.5s;
+}
+.spanName1{
+    color: rgb(108, 41, 41)
+    
+}
+.spanName{
+    color: rgb(108, 41, 41)
+}
+
+.HeadaboutUsMain_container h1:hover {
+    color: #fb0303;
+}
+ 
+ 
+
+.aboutLowerIconPara p {
+    color: black;
+    font-size: 30px;
+    width: 600px;
+}
+
+.About_founderDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.About_founderDiv h1 {
+    margin-top: 85px;
+    color: #e17121;
+    box-shadow: inset 2px 1px 10px 3px;
+    transition-property: background-color;
+    transition-duration: 1.8s;
+}
+
+.About_founderDiv h1:hover {
+    background-color: #30794d;
+}
+
+.founder1uper {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap: 66px;
+    column-gap: 54px;
+}
+
+.founderuperInerDiv1 {
+    width: 428px;
+    height: 504px;
+}
+.background-video3{
+    width: 100%;
+    position: absolute;
+    background-size: 100%;
+}
+
+.founderuperInerDiv {
+    width: 428px;
+    height: 504px;
+}
+
+.founder1uper p {
+    font-size: 20px;
+    display: block;
+    display: block;
+    text-align: center;
+    margin-bottom: 52px;
+    color: cadetblue;
+    margin-top: 42px;
+    margin: auto;
+}
+
+.founderuperInerDiv p {
+
+    width: 353px;
+    margin: auto;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.lower_para {
+    margin-top: 147px;
+    font-size: 19px;
+    word-spacing: 2px;
+    color: cadetblue;
+    text-align: center;
+
+}
+
+.founderuperInerDiv img {
+    display: block;
+    margin-top: 20px;
+    height: 355px;
+    width: 424px;
+    border-radius: 17px;
+}
+
+.founderuperInerDiv1 img {
+    display: block;
+    margin-top: 39px;
+    height: 355px;
+    width: 424px;
+    border-radius: 17px;
+}
+
+.founderuperInerDiv {
+    margin-top: 38px;
+}
+
+#work1 {
+    color: blue;
+}
+
+#work2 {
+    color: blueviolet;
+}
+
+.founder1 {
+    height: 1050px;
+}
+
+.founder1uper2 {
+
+
+    display: flex;
+    width: 85%;
+    margin: auto;
+    gap: 66px;
+    margin-top: 20px;
+    column-gap: 54px;
+}
+
+
+
+
+
+
+
+/* responsive css................... */
+
+
+@media only screen and (max-width: 420px) {
+    .aboutUsMain_container {
+        margin: 0px;
+        margin-top: -8px;
+        width: 450px;
+        height: 210px;
+        opacity: .48;
+        margin-left: -8px;
+    }
+
+    .HeadaboutUsMain_container h1 {
+        font-size: 33px;
+        width: 402px;
+        position: relative;
+        height: 0;
+        top: 50px;
+        left: 200px;
+        color: #f1edea;
+    }
+
+    
+
+    .MidContainer_About {
+        width: 450px;
+        margin-left: -8px;
+        opacity: unset;
+        position: absolute;
+        height: 551px;
+        margin-top: -38px;
+
+    }
+
+    .MidContainer_About h1 {
+        width: 169px;
+        font-size: 23px;
+        margin: auto;
+        display: block;
+        color: blue;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    .MainMidContainer_About_summry {
+
+        display: block;
+        margin-left: 7px;
+    }
+
+    .MidContainer_About_summry p {
+        width: 355px;
+        text-align: center;
+        color: black;
+    }
+
+    .MidContainer_About_IconGroup {
+        width: 429px;
+        margin-left: 0px;
+        margin: unset;
+        margin-top: 0;
+        gap: 2px;
+        height: 122px;
+        justify-content: center;
+    }
+
+    .MidContainer_About_Icon_pic img {
+        width: 19px;
+        margin-top: 55px;
+        margin-left: 4px;
+    }
+
+    .MidContainer_About_Icon_pic p {
+        width: 45px;
+        font-size: 10px;
+    }
+
+    .MidContainer_About_Icon_pic {
+        display: block;
+        width: 76px
+    }
+
+    .aboutLowerIconPara p {
+        width: auto;
+        color: brown;
+        font-size: 15px;
+    }
+
+    .About_founderDiv {
+        width: 437px;
+        margin-left: 0px;
+        display: block;
+        height: fit-content;
+        height: 1585px;
+
+    }
+
+    .About_founderDiv h1 {
+        margin-top: 44px;
+        font-size: 22px;
+        width: 260px;
+        text-align: center;
+        position: relative;
+        height: 31px;
+        top: 13px;
+        margin-left: 97px;
+    }
+    
+
+    .founder1uper p {
+
+        width: 362px;
+        margin: auto;
+        font-size: 13px;
+        color: black;
+        margin-left: 17px;
+
+
+    }
+
+    .founder1uper2 p {
+        display: block;
+        margin-top: 48px;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: -31px;
+    }
+
+    .founderuperInerDiv1 p {
+
+        width: 377px;
+        margin: auto;
+        font-size: 17px;
+        color: black;
+        margin-top: 21px;
+
+
+    }
+
+    .founder1uper {
+        display: block;
+        width: 95%;
+        margin-top: 84px;
+        word-spacing: 2px;
+
+
+    }
+
+    .founder1 {
+        height: 764px;
+        margin-top: -67px;
+        margin-left: 25px;
+    }
+
+    .founderuperInerDiv1 {
+        width: 428px;
+        height: 394px;
+    }
+
+    .founderuperInerDiv img {
+
+        width: 365px;
+        display: block;
+        height: 295px;
+        margin: auto;
+        margin-top: 48px;
+        margin-left: 3px;
+    }
+
+    #work1 {
+        color: blue;
+        margin-top: 5px;
+    }
+
+    .founderuperInerDiv1 img {
+        display: block;
+        margin-top: 32px;
+        height: 295px;
+        width: 374px;
+        margin-left: 14px;
+        border-radius: 17px;
+    }
+
+    .founderuperInerDiv {
+        width: 371px;
+        display: block;
+        height: 360px;
+
+    }
+
+    .founder1uper2 {
+        display: block;
+        margin-left: 16px;
+        width: 371px;
+    }
+
+    .background-video3{
+        margin-left: 8px;
+        margin-top: 8px;
+        width: 437px;
+    }
+
+    .trainerSectionDive {
+        margin-top: 0;
+        background-color: rgb(200, 177, 146);
+        height: 1677px;
+        width: 437px;
+        position: relative;
+        top: 44px;
+    }
+
+
+    .trainerMainDiv {
+        display: flex;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .trainer-profile{
+    position: relative;
+    left: 71px;
+    top: 34px;
+    }
+}

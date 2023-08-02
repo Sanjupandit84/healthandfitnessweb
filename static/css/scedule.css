@@ -1,0 +1,76 @@
+ /* Global Styles */
+
+body {
+  padding: 0;
+  display: block;
+  background: #c3b8d9;
+  color: #207e4b;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 25px;
+    color: #7d09099f;
+  }
+
+
+  
+  table {
+    width: 1349px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Additional Styles */
+  
+  td:first-child {
+    width: 10%;
+    font-weight: bold;
+  }
+  
+  td:nth-child(2) {
+    width: 15%;
+    text-transform: uppercase;
+  }
+  
+  td:last-child {
+    text-align: justify;
+    padding-right: 30px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+
+
+  /* Responsive css ............................................... */
+
+
+
+  @media only screen and (max-width: 420px) {
+
+
+    table {
+      width: 437px;
+    }
+  
+   
+  }

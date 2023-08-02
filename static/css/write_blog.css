@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Righteous&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+    
+}
+
+body{
+    height: 1059px;
+
+}
+.navbar {
+    background-color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Serif&family=Righteous&family=Sofia+Sans+Condensed:ital,wght@1,1&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar {
+    background-color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+    margin-top: 80px;
+    /* add space for navbar */
+    padding: 20px;
+}
+
+/* animated underline effect */
+.navbar a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover::after,
+.navbar a.active::after {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Style the form labels */
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style the form input fields */
+input[type="text"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.upload {
+    margin-left: -6px;
+    margin-top: -1px;
+    font-size: 28px;
+    width: 146px;
+    padding: 21px;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    animation: pulse 0.5s linear infinite;
+}
+
+/* Animation for submit button hover */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+    margin-top: 80px;
+    /* add space for navbar */
+    padding: 20px;
+}
+
+/* animated underline effect */
+.navbar a::after {
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover::after,
+.navbar a.active::after {
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.BackHomeToAdmine{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.BackHomeToAdmine:hover{
+    background-color: #3e8e41;
+    animation: pulse 0.5s linear infinite;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    margin-top: 92px;
+    font-size: 52px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    color: #65dd17;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Style the form labels */
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style the form input fields */
+input[type="text"],
+textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.upload {
+    margin-left: 187px;
+    margin-top: -1px;
+    font-size: 28px;
+    color: #4dbc4d;
+    width: 353px;
+    padding: 21px;
+    border-style: none;
+}
+
+/* Style the form submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+    animation: pulse 0.5s linear infinite;
+}
+
+/* Animation for submit button hover */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+/* .....responsive css........................ */
+
+ 
+@media only screen and (max-width:420px) {
+
+
+    .navbar a{
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

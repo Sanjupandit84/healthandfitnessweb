@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/static/css/edit.css">
+    <head>
+        <title>Edit Blog Post</title>
+    </head>
+    <body>
+        <h1>Edit Blog Post</h1>
+        
+        <form action="/update" method="post" enctype="multipart/form-data">
+
+            <a href="/admin">   <img src="/static/image/left-arrow.png" alt=""> </a>
+
+            <input type="hidden" placeholder="id" name="id" value="{{id}}">
+            <!-- ---------------------------------------------------------------->
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" value="{{ title }}"><br><br>
+            <!-- ---------------------------------------------------------------->
+            <label>Image:</label>
+            <input class="upload" type="file" id="image" name="file" value="{{
+                image_base64 }}"/>
+            <!-- ---------------------------------------------------------------->
+            <label for="content">Content:</label><br>
+            <textarea id="content" name="content" rows="10" cols="50" value="">
+            </textarea><br><br>
+
+            <input type="submit" value="Save Changes">
+        </form>
+    </body>
+</html>
