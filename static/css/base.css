@@ -132,6 +132,7 @@ nav img{
 
     .hamnivbar{
         display: block;
+        width: 464px;
     }
 
 
@@ -160,7 +161,7 @@ nav img{
 .aboutFooter {
     text-align: center;
     position: relative;
-    top: 37px;
+    top: 11px;
 }
 
 .footerHeadin {
@@ -214,6 +215,7 @@ nav img{
 
     footer {
         position: absolute;
+        width: 464px;
     }
 
      .button{
@@ -225,7 +227,7 @@ nav img{
     }
 
     .FollowSection {
-        width: 437px;
+        width: 464px;
         height: 225px;
         display: block;
         margin-top: -15px;
@@ -242,7 +244,7 @@ nav img{
 
 
     .mainFooter {
-        width: 437px;
+        width: 464px;
         height: 235px;
     
     }

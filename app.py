@@ -1,5 +1,5 @@
 from flask import Flask , render_template, request, redirect, url_for
-import json
+import json      
 from flask_mysqldb import MySQL 
 import base64
 
@@ -12,6 +12,8 @@ app.config['MYSQL_HOST']=configuration['host']
 app.config['MYSQL_USER']=configuration['user']
 app.config['MYSQL_PASSWORD']=configuration['password']
 app.config['MYSQL_DB']=configuration['database']
+
+
 
 mysql= MySQL(app)
 

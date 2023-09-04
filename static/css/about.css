@@ -329,7 +329,7 @@
     }
 
     .About_founderDiv {
-        width: 437px;
+        width: 464px;
         margin-left: 0px;
         display: block;
         height: fit-content;
@@ -439,14 +439,14 @@
     .background-video3{
         margin-left: 8px;
         margin-top: 8px;
-        width: 437px;
+        width: 464px;
     }
 
     .trainerSectionDive {
         margin-top: 0;
         background-color: rgb(200, 177, 146);
         height: 1677px;
-        width: 437px;
+        width: 464px;
         position: relative;
         top: 44px;
     }
